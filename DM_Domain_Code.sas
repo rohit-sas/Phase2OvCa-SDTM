@@ -3,7 +3,7 @@ Libname oncology "C:\Users\HP\Desktop\My Folder\Project\Oncology Project\crfdata
 Libname SDTM "C:\Users\HP\Desktop\My Folder\Project\Oncology Project\SDTM_Oncology_Domains";
 
 
-
+Options Validvarname= Upcase;                                                                                                                      
 
 Data SDTM.DM;
  Attrib STUDYID LABEL='Study Identifier' LENGTH=$6
